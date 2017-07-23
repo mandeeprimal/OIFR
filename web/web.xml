@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>Servlet1</servlet-name>
+        <servlet-class>second.Id</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>servlet3</servlet-name>
+        <servlet-class>First.Login</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Servlet4</servlet-name>
+        <servlet-class>First.Mainform</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Servlet5</servlet-name>
+        <servlet-class>First.Form</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servlet5</servlet-name>
+        <url-pattern>/fill</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Servlet4</servlet-name>
+        <url-pattern>/Mainform</url-pattern>
+    </servlet-mapping>
+
+    
+    
+        
+</web-app>
